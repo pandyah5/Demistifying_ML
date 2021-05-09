@@ -27,18 +27,25 @@ data['reading score'] = data['reading score'].div(100.0)
 data['writing score'] = data['writing score'].div(100.0)
 data.head()
 
-## Data Visualization - Helps get an idea of the problem at hand]
-plt.plot(data['reading score'], data['math score'], 'o', color = "blue")
-plt.ylabel('Math score')
-plt.xlabel('Reading score')
-plt.title('Relationship with reading score')
-plt.show()
-
 labels = data['math score']
 del data['math score']
-data = data['reading score']
 # Check if there are any missing values
 data.describe()
+
+## Data Visualization - Helps get an idea of the problem at hand]
+x_axis = ['Female', 'Male']
+y_axis = data['gender'].value_counts()
+print(y_axis)
+plt.bar(x_axis, y_axis, color = "blue")
+plt.show()
+
+x_axis = ['group C', 'group D', 'group B', 'group E', 'group A']
+y_axis = data['race/ethnicity'].value_counts()
+print(y_axis)
+plt.bar(x_axis, y_axis, color = "blue")
+plt.show()
+
+# You can make more of them to get a better idea but yeah that's the jist of it
 
 ## Making the training and testing datasets - We are using a 80% - 20% split here
 
@@ -49,16 +56,28 @@ train_labels = labels[:800]
 test_labels = labels[800:]
 
 model = tf.keras.Sequential()
-model.add(tf.keras.layers.Dense(1, input_shape=[1]))
-model.compile(loss='mean_squared_error', optimizer='sgd')
+model.add(tf.keras.layers.Dense(1, input_dim=7))
+model.add(tf.keras.layers.Dense(64, input_shape=[1], activation='relu'))
+model.add(tf.keras.layers.Dense(64, input_shape=[64], activation='relu'))
+model.add(tf.keras.layers.Dense(1, input_shape=[64]))
+model.compile(loss='mean_squared_error', optimizer='adam')
 model.summary()
 
 model.fit(train_data, train_labels, epochs=1000)
-model.save('dnn_linear_regression_single_var.h5')
+model.save('dnn_non_linear_regression_multi_var.h5')
 
-## Let's see how it performed on the set
-x = np.linspace(0, 1, 101)
-y = model.predict(x)
-plt.plot(data['reading score'], data['math score'], 'o', color = "blue")
-plt.plot(x, y, color = "red")
+model_output = []
+output = model.predict(np.array(test_data))
+index = 800
+
+for elem in output:
+    to_save = elem[0] - test_labels[index]
+    index += 1
+    model_output.append(to_save)
+
+x_axis = np.linspace(1, 200, 200)
+print(x_axis.size)
+
+## Look at the y-axis labels and how the max differences decreased
+plt.scatter(x_axis, model_output, color = "green")
 plt.show()
