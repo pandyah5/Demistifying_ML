@@ -1,6 +1,6 @@
 # DNN
 
-To be honest linear regression is NOT meant for linear regression but nonetheless I have shown how to perform:
+To be honest deep neural networks is NOT meant for linear regression but nonetheless I have shown how to perform:
 
 - Linear regression with single variable in "dnn_linear_reg_single_var.py"
 - Linear regression with multiple variable in "dnn_linear_reg_multi_var.py"
