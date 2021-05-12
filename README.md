@@ -9,6 +9,8 @@ A code base for different types of ML models
 
 ## DNN - NLP
 
+## Apriori Algorithm
+
 ## RNN - NLP
 
 ## RNN + LSTM - NLP
