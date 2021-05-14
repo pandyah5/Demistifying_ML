@@ -8,6 +8,11 @@ A code base for different types of ML models
 
 ## CNN
 
+- 2D CNN
+- 3D CNN
+- Object detection
+- Object Classification
+
 ## CNN with transfer learning
 
 ## DNN - NLP
