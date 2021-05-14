@@ -15,6 +15,9 @@ A code base for different types of ML models
 
 ## CNN with transfer learning
 
+- VGG-16
+- AlexNet
+
 ## DNN - NLP
 
 ## Apriori Algorithm
