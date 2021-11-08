@@ -1,12 +1,10 @@
-## Welcome to GitHub Pages
+## Welcome to my ML Guide
 
-You can use the [editor on GitHub](https://github.com/pandyah5/ML_Info/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This website is basically an online journal of my journey in Machine Learning (ML) and the leasons I learned along the way.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### About Me
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+I am Hetav, a computer engineering student at the University of Toronto and currently interning at Intel as a software developer engineer. My passion for machine learning started when I enetered into my sophomore year and discovered a club called [UTMIST](https://utmist.gitlab.io/) (The University of Toronto Machine Intelligence Student Team). I joined as a member of the academic department and today, I serve as the Co-President of the club along with Vicky Chen. Now enough about me, let's get started with ML!
 
 ```markdown
 Syntax highlighted code block
