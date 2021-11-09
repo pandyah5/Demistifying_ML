@@ -27,7 +27,7 @@ To understand how to setup a link between Kaggle and Google Collab, you can read
 
 ### ML Agenda
 
-- [Linear regression](https://github.com/pandyah5/Demistifying_ML/blob/main/linear_reg.md)
+- [Linear regression](https://colab.research.google.com/drive/1FhScOv9y-2wuq3kZT9BY7c36wwIGIChY?usp=sharing)
 - Logistic Regression
 - K-Nearest Neighbors (KNN)
 - Support Vector Machines (SVM)
