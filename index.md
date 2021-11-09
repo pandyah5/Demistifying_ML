@@ -23,7 +23,7 @@ Here are the things that will help people who are just beginning in this field:
 
 Setting up an ML work environment locally is a pain, atleast it was when I started. So for your comfort I have decided to go through a super efficient way of linking Kaggle and Google Collab that will help you get started in a minute and you can focus more on the code rather than the setup errors.
 
-To understand how to setup a link between Kaggle and Google Collab, you can read my blog post here: 
+To understand how to setup a link between Kaggle and Google Collab, you can read my blog post [here](https://medium.com/@pandyahetav1/the-simplest-way-to-link-kaggle-dataset-to-a-google-colab-notebook-fc262ec019b3)
 
 ### ML Agenda
 
