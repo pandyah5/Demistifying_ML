@@ -4,7 +4,7 @@ This website is basically an online journal of my journey in Machine Learning (M
 
 ### About Me
 
-I am Hetav, a computer engineering student at the University of Toronto and currently interning at Intel as a software developer engineer. My passion for machine learning started when I enetered into my sophomore year and discovered a club called [UTMIST](https://utmist.gitlab.io/) (The University of Toronto Machine Intelligence Student Team). I joined as a member of the academic department and today, I serve as the Co-President of the club along with Vicky Chen. Now enough about me, let's get started with ML!
+I am Hetav, a computer engineering student at the University of Toronto and currently interning at Intel as a software engineer. My passion for machine learning started when I entered into my sophomore year and discovered a club called [UTMIST](https://utmist.gitlab.io/) (The University of Toronto Machine Intelligence Student Team). I joined as a member of the academic department and today, I serve as the Co-President of the club along with Vicky Chen. Now enough about me, let's get started with ML!
 
 ### Some general tips
 
