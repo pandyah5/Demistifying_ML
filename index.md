@@ -30,7 +30,7 @@ To understand how to setup a link between Kaggle and Google Collab, you can read
 - [Linear regression](https://colab.research.google.com/drive/1FhScOv9y-2wuq3kZT9BY7c36wwIGIChY?usp=sharing) [Theory](https://github.com/pandyah5/Demistifying_ML/blob/main/linear_reg.md)
 - [Logistic Regression](https://colab.research.google.com/drive/1EovtD5zRiTGWgspqJQDDcr676PUKFkU6?usp=sharing)
 - K-Nearest Neighbors (KNN)
-- Support Vector Machines (SVM)
+- [Support Vector Machines (SVM)](https://colab.research.google.com/drive/1Rg2hpJ1fFFbgdcFMRNErQ2S9gF2-_vBB?usp=sharing)
 - Random Forest
 - Naive Bayes
 - Apriori Algorithm
